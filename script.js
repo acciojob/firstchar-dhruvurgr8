@@ -2,7 +2,7 @@ function firstChar(text) {
   if(text==""){
 	  return "";
   }else{
-	  text.trim();
+	  text = text.trim();
 	  return text[0]
   }
 }
